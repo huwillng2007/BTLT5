@@ -1,0 +1,10 @@
+body { font-family: "Times New Roman", serif; margin: 30px; }
+.box { display: inline-block; border: 1px solid #999; padding: 8px 10px; width: 330px; }
+.row { display: flex; align-items: center; margin-bottom: 4px; }
+.row label { width: 100px; }
+.row input { flex: 1; padding: 2px 4px; border: 1px solid #777; }
+.buttons { margin: 6px 0 14px; }
+.buttons button { padding: 2px 8px; margin-right: 6px; cursor: pointer; }
+.result-label { margin: 0; }
+.result { margin: 0; min-height: 1.2em; }
+.result.error { color: red; }

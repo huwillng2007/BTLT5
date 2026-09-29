@@ -1,0 +1,12 @@
+body { font-family: "Times New Roman", serif; margin: 30px; }
+table.salary {
+  width: 420px; border: 3px solid #00008b; border-collapse: separate;
+  border-spacing: 2px; background: #ffcc99; font-size: 18px;
+}
+table.salary td { border: 1px solid #00008b; padding: 2px 4px; }
+td.label { width: 120px; font-weight: bold; }
+td.center { text-align: center; }
+td.out { font-weight: bold; }
+input[type="text"] { width: 95%; padding: 2px 4px; }
+input[type="button"] { padding: 2px 14px; border-radius: 12px; cursor: pointer; }
+td.out.error { color: red; font-weight: normal; }

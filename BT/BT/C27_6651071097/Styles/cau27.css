@@ -1,0 +1,10 @@
+body { font-family: "Times New Roman", serif; margin: 30px; }
+table.grid {
+  border: 1px solid #99cc99; border-collapse: separate; border-spacing: 2px;
+  background: #ccffcc;
+}
+table.grid th { background: #ccffcc; font-size: 20px; padding: 4px 30px; }
+table.grid td { background: #ccffcc; padding: 2px 4px; text-align: center; }
+table.grid input[type="text"] { width: 145px; padding: 3px 4px; font-size: 15px; }
+table.grid input.invalid { border: 2px solid red; }
+input[type="button"] { padding: 2px 14px; border-radius: 12px; cursor: pointer; }

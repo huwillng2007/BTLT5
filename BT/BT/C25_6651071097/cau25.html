@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Câu 25 - Tính tiền món ăn</title>
+<link rel="stylesheet" href="Styles/cau25.css">
+<script src="Scripts/cau25.js" defer></script>
+</head>
+<body>
+  <form onsubmit="return false;">
+    <table class="menu">
+      <tr><th colspan="3" class="title">THỰC ĐƠN</th></tr>
+      <tr class="head">
+        <th>Thức ăn</th>
+        <th>Nước uống</th>
+        <th>Thời điểm</th>
+      </tr>
+      <tr>
+        <td><select id="thucAn" multiple size="7"></select></td>
+        <td><select id="nuocUong" multiple size="7"></select></td>
+        <td class="time">
+          <label><input type="radio" name="thoiDiem" value="ngay" checked> Ban ngày</label><br><br>
+          <label><input type="radio" name="thoiDiem" value="dem"> Ban đêm</label>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3" class="center">
+          <input type="button" id="btnTinhTien" value="Tính tiền">
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3" id="ketqua"></td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>

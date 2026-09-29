@@ -1,0 +1,21 @@
+body { font-family: "Times New Roman", serif; margin: 20px; }
+table.menu {
+  width: 400px; margin: 0 auto; border: 3px solid #ccff00;
+  background: #ccff00; border-collapse: separate; border-spacing: 2px;
+}
+table.menu th, table.menu td { border: 1px solid #99cc00; padding: 4px; }
+th.title { font-size: 20px; padding: 14px 0; }
+tr.head th { color: #0000ee; font-size: 17px; width: 33%; }
+td.time { vertical-align: middle; padding-left: 12px; font-size: 17px; }
+td.center { text-align: center; }
+select[multiple] { width: 100%; font-size: 13px; }
+input[type="button"] { padding: 1px 12px; border-radius: 10px; cursor: pointer; }
+
+table.bill {
+  width: 100%; border: 2px solid #800000; border-collapse: collapse;
+  background: #99ffff;
+}
+table.bill th { color: #0000ee; font-size: 16px; }
+table.bill th, table.bill td { border: 1px solid #800000; padding: 1px 4px; }
+table.bill td.money { width: 40%; }
+p.error { color: red; margin: 4px; }

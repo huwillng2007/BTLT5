@@ -1,0 +1,17 @@
+body { font-family: "Times New Roman", serif; margin: 30px; }
+.box { width: 540px; border: 1px solid #66cccc; }
+.title {
+  background: #ffffcc; text-align: center; font-weight: bold;
+  font-size: 22px; padding: 6px 0;
+}
+.body {
+  background: #ccffff; display: flex; align-items: flex-end;
+  justify-content: space-between; padding: 8px 12px 14px;
+}
+.col { display: flex; flex-direction: column; }
+.col label { font-size: 20px; margin-bottom: 4px; }
+.col input[type="text"] { width: 165px; padding: 3px 4px; font-size: 16px; }
+.col.mid { padding-bottom: 20px; }
+input[type="button"] { padding: 2px 14px; border-radius: 12px; cursor: pointer; }
+.loi { color: red; font-size: 13px; min-height: 16px; }
+input.invalid { border: 2px solid red; }
